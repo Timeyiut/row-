@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>medippi rowing dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>medippi Rowing Dashboard (MVP)</h1>
+    <div class="grid">
+      <div class="card"><div class="k">HR</div><div id="hr" class="v">--</div><div id="hrsrc" class="s">--</div></div>
+      <div class="card"><div class="k">Phase</div><div id="phase" class="v">--</div></div>
+      <div class="card"><div class="k">Knee</div><div id="knee" class="v">--</div></div>
+      <div class="card"><div class="k">Hip</div><div id="hip" class="v">--</div></div>
+      <div class="card"><div class="k">Elbow</div><div id="elbow" class="v">--</div></div>
+    </div>
+
+    <div class="hint">
+      <div>WebSocket: <code>ws://localhost:8765/ws</code></div>
+      <div>Topics: <code>vision/frame</code>, <code>sensor/hr</code>, <code>fusion/live</code></div>
+    </div>
+
+    <pre id="log"></pre>
+    <script src="app.js"></script>
+  </body>
+</html>

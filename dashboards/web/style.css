@@ -1,0 +1,8 @@
+body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; padding: 16px; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(180px, 1fr)); gap: 12px; }
+.card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; }
+.k { color: #555; font-size: 12px; }
+.v { font-size: 28px; font-weight: 700; margin-top: 6px; }
+.s { color: #777; font-size: 12px; margin-top: 6px; }
+.hint { margin-top: 10px; color: #666; font-size: 12px; }
+pre { margin-top: 16px; background: #f6f6f6; padding: 12px; border-radius: 12px; overflow: auto; }
