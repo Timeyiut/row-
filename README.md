@@ -10,3 +10,10 @@ pip install -U pip
 pip install -e .
 
 python scripts/run_local.py
+```
+
+按 `q` 離開。
+
+## Notes
+- ANT+ 讀取需 ANT+ USB dongle 與對應 Python library（不同作業系統/硬體可能需額外驅動與權限設定）。
+- Apple Watch 通常不會像標準 BLE 心率帶那樣讓 PC 端直接訂閱 Heart Rate Service；若要使用 Apple Watch 心率，建議走 iPhone relay 或第三方/專用硬體橋接（列為擴充項目）。

@@ -1,0 +1,19 @@
+[project]
+name = "medippi-rowing"
+version = "0.1.0"
+description = "Rowing analysis: MediaPipe pose + BLE/ANT+ HR + realtime dashboard"
+requires-python = ">=3.10"
+dependencies = [
+  "opencv-python>=4.8.0",
+  "mediapipe>=0.10.0",
+  "numpy>=1.24",
+  "bleak>=0.22.0",
+  "websockets>=12.0"
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
