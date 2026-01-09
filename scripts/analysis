@@ -1,0 +1,8 @@
+analysis/
+  __init__.py
+  io.py              # load CSV, basic cleaning
+  preprocess.py      # resample, filter, outlier handling
+  hr_metrics.py      # HR zones, dHR/dt, summary
+  angle_metrics.py   # ROM, SD/CV, dtheta/dt
+  stroke.py          # stroke detection + per-stroke stats
+  report.py          # export summary JSON/CSV
